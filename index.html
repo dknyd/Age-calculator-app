@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+<title>Age calculator app</title>
+</head>
+<body>
+    <main>
+        <div class="inputContainer">
+            <div class="dateContainer containerDay">
+                <span>Day</span>    
+                <input type="text" class="input inputDay" placeholder="DD" name="inputDay"> 
+            </div>
+
+            <div class="dateContainer containerMonth">
+                <span>Month</span>    
+                <input type="text" class="input inputMonth" placeholder="MM" name="inputMonth">
+            </div>
+
+            <div class="dateContainer containerYear">
+                <span>Year</span>    
+                <input type="text" class="input inputYear" placeholder="YYYY" name="inputYear">
+            </div>
+        </div>
+
+        <div class="separatorContainer">
+            <hr>
+            <img src="assets/images/icon-arrow.svg" class="iconArrow" alt="iconArrow">
+        </div>
+
+        <div class="resultContainer">
+            <div class="resultYearContainer"><span class="result resultYear">-- </span>years</div>
+            <div class="resultMonthContainer"><span class="result resultMonth">-- </span>months</div>
+            <div class="resultDayContainer"><span class="result resultDay">-- </span>days</div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
